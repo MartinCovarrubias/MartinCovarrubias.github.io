@@ -1,0 +1,480 @@
+.container{
+width: 100%;
+height: 100%;
+display: flex;
+place-items: center;
+margin-top: 5%;
+
+}
+
+
+.rectangulo{
+  width: 20rem;
+  height: 30rem;
+  background-color: #dc0a2d;
+   border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20rem;
+    border-top-width: 3px;
+    border-right-width: 3px;
+     border-bottom-width: 3px;
+     border-left-width: 3px;
+     border-top-style: solid;
+     border-right-style: solid;
+     border-bottom-style: solid;
+     border-left-style: solid;
+     display: flex;
+}
+
+
+.rectangulo2{
+  width: 19rem;
+  height: 25rem;
+  background-color:#dc0a2d;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 5rem;
+  border-top-width: 3px;
+  border-right-width: 3px;
+   border-bottom-width: 3px;
+   border-left-width: 3px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   display: flex;
+}
+
+.infoCentro{
+ background-color: aliceblue;
+ width: 220px;
+  height: 220px;
+ margin-top: 6rem;
+  margin-left: 3rem;
+  display: grid;
+  justify-content: center;
+  border-bottom-left-radius: 40px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+   border-bottom-width: 3px;
+   border-left-width: 3px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+}
+
+.infoCentro2{
+  background-color:#97cb97;
+  border-radius: 9px;
+  border-top-width: 3px;
+ border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  width:150px;
+    height: 150px;
+    margin-top: 2rem;
+    display: grid;
+}
+
+.right-panel-screen {
+
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  width:180px;
+  height: 104px;
+  background-color: #9d9d9d;
+  border: solid black 2px;
+  border-radius: 4px;
+  font-size: xx-small;
+  
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-left: 8px;
+
+}
+
+/* square buttons grid */
+
+.square-buttons-container {
+ 
+   margin-top: 3rem;
+  margin-left: 3.5rem;
+  display: grid;
+ background-color: #97cb97;
+ height: 0rem;
+  width: 0rem;
+}
+
+.blue-squares-container {
+  margin-left: .7rem;
+  width: 186px;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+ 
+}
+
+.blue-square {
+  border-radius: 2px;
+  border: black 1.5px solid;
+  background-color: #00a2e8;
+  box-shadow: inset -2px -2px #51cb32;
+}
+
+.containerb{
+  margin-top: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#dc0a2d;
+  width: 97px;
+  height: 80px;
+  margin-left: .7rem;
+}
+.containerb2{
+  margin-top: 16rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+  width: 91px;
+}
+
+.circulop1{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a70303;
+  margin-top: -4rem;
+  margin-left: -4rem;
+  border: #000000 solid 1px;
+}
+
+.circulop2{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a70303;
+  margin-top: -4rem;
+  margin-left: 7px;
+  border: #000000 solid 1px;
+}
+
+.cuadro{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  width: 100px;
+  height: 50px;
+  display: grid;
+  margin-top: 17.5rem;
+  margin-left: -11.8rem;
+}
+
+.btnC{
+  height: 40px;
+  width: 40px;
+  border: #000000 solid 1px;
+}
+
+.btnrectangulo{
+  width: 40px;
+  height: 8px;
+  background-color: brown;
+  margin-top: -4rem;
+  margin-left: 7px;
+}
+
+.btnrectangulo2{
+  width: 40px;
+  height: 8px;
+  background-color: brown;
+  margin-left: 5px;
+  margin-top: -4rem;
+
+}
+
+.circuloxd{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe609;
+  margin-top: 0rem;
+  margin-left: -2rem;
+  border: #000000 solid 1px;
+
+}
+
+.containerRect{
+  display: flex;
+
+  width: 15rem;
+  height: 6rem;
+  margin-top: 21rem;
+  margin-left: -8rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .rectcafeM{
+    background-color:#9d9d9d;
+    width: 80px;
+    height: 30px;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border: #000000 solid 1px;
+
+    border-radius: 5px;
+  }
+
+  .rectcafeM1{
+    background-color: #9d9d9d;
+    width: 80px;
+    height: 30px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border: #000000 solid 1px;
+    justify-content: flex-end;
+    
+    border-radius: 5px;
+  }
+
+  .circulored{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #a70303;
+    margin-left: -1rem;
+    border: #000000 solid 1px;
+    display: grid;
+  }
+
+  .containerbtnR1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 50px;
+    margin-top: 21rem;
+    margin-left: -14rem;
+
+  }	
+ 
+ .circulorect1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #515555;
+    margin-top: 0rem;
+    margin-left: -6rem;
+    border: #000000 solid 2px;
+    display: flex;
+  }
+
+  .btnrectx{
+    width: 50px;
+    height: 8px;
+    background-color: #cc2020;
+    margin-top: -3rem;
+    margin-left: 0.5rem;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  .btnrectx1{
+    width: 50px;
+    height: 8px;
+    background-color: #06daff;
+    margin-top: -3rem;
+    margin-left: 0.5rem;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    display: flex;
+  }
+
+  .containerbtnR1x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 70px;
+    margin-top: 24rem;
+    margin-left: -13.9rem;
+
+  }
+
+  .rectanguloC1{
+    width: 65px;
+    height: 20px;
+    background-color: #5c4949;
+    margin-top: -4rem;
+    margin-left: 10rem;
+   position: absolute;
+    border-radius: 5px;
+
+  }
+
+  .rectanguloC2{
+    width: 20px;
+    height: 60px;
+    background-color: #5c4949;
+    margin-top: -4rem;
+    margin-left:10rem;
+    position: absolute;
+    border-radius: 5px;
+  
+  }
+
+  .rectFinished{
+    width: 100px;
+    height: 50px;
+    background-color: #2a7e2e;
+    margin-top: 0rem;
+    margin-left: -2rem;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+
+
+   
+  }
+
+  .circulop3{
+    width: 10px;
+    height: 10px;
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+    border-radius: 50%;
+    background-color: #ff2222;
+    border: #000000 solid 1px;
+    display: flex;
+    position: absolute;
+  }
+
+  .circulop4{
+    margin-left: 7rem;
+    margin-top: 0.5rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#ff2222;;
+    border: #000000 solid 1px;
+    position: absolute;
+    display: flex;
+  }
+
+  .circleblue{
+    width: 70px;
+    height: 70px;
+
+
+
+    border-radius: 50%;
+    background-color: #06daff;
+    border: #000000 solid 2px;
+    display: flex;
+    position: absolute;
+
+  }
+  .circlewhite{
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    display: flex;
+    position: absolute;
+  }
+
+  .containercirculos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+
+    position: absolute;
+  }
+
+  .circulo6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff2222;
+    margin-top: -4rem;
+    margin-left: -6rem;
+    border: #000000 solid 1px;
+    display: flex;
+    position: absolute;
+  }
+  .circulo7{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffd900;
+    margin-right: 2rem;
+    margin-top: -4rem;
+    border: #000000 solid 1px;
+    display: flex;
+    position: absolute;
+  }
+
+  .circulo8{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3cff00;
+    border: #000000 solid 1px;
+    display: flex;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: -4rem;
+  }
+
+  input{
+   
+    border-radius: 5px;
+    height: 30px;
+    border: #000000 solid 1px;
+    margin-top: 2rem;
+    margin-left: 41rem;
+    position: absolute;
+    background-color: #ced8f8;
+  }
+
+  .btnS{
+ 
+    height: 32px;
+
+    margin-top: 2rem;
+    margin-left: 53rem;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    position: absolute;
+    justify-content: center;
+
+  }
+
+  .h3x{
+text-align: center;
+    margin-top: 1rem;
+   
+   
+    font-weight: bold;
+    color: #ffffff;
+   
+  }
